@@ -1,5 +1,5 @@
 # Logistic Regression for Heart Disease Prediction
-This project developed a logistic regression model to predict heart disease using a medical dataset (303 patients, 14 variables). Feature selection was performed using stepwise regression with AIC, resulting in a final model with 10 predictors. Model diagnostics included VIF (low multicollinearity), likelihood ratio tests, Wald tests, ROC analysis (AUC > 0.9), and confusion matrix evaluation. A classification threshold of 0.6 was chosen empirically to balance predictions and outcomes. Odds ratios were computed to improve interpretability of predictors.
+This project developed a logistic regression model to predict heart disease using a medical dataset (303 patients, 14 variables). Feature selection was performed using stepwise regression with AIC, resulting in a final model with 10 predictors. Model diagnostics included VIF (low multicollinearity), likelihood ratio tests, Wald tests, ROC analysis (AUC > 0.9), and confusion matrix evaluation. A classification threshold of 0.6 was chosen empirically to balance predictions and outcomes.
 
 # Conclusions
 The model achieved satisfactory performance (86% accuracy).
